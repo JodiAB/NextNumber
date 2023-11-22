@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(249, 244, 244)
+  }
+
+  h1 {
+    color: #2f14ff;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #148dff;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #4e2ecc;
+  }
+
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+  }
